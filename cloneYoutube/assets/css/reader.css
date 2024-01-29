@@ -1,0 +1,80 @@
+aside{
+    min-width: 400px;
+    height: 100vh;
+    overflow: auto;
+}
+.reader{
+    top: 70px;
+    background-color: white;
+}
+.reader-meta{
+    justify-content: space-between;
+    height: 25px;
+}
+.reader-action{
+    height: 24px;
+    cursor: pointer;
+}
+.owner-video-meta{
+    justify-content: space-between;
+}
+.reader-action i:hover{
+    color: red;
+    font-size: 1.5rem;
+}
+.reader-actions .reader-action:hover{
+    border-bottom: 1px solid red;
+}
+button.subscribe{
+    border: 0;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+}
+.owner-video-meta{
+    margin: 10px 0;
+}
+.suggestion-video-title h4{
+    margin: 0;
+}
+.video-metat-data{
+    color: gray;
+}
+.video-metat-data:hover {
+    font-weight: bold;
+}
+.suggestion-poster img{
+    width: 168px;
+    height: 100px;
+}
+
+[class^="container-reader"]{
+    padding: 10px;
+}
+.suggestion-item{
+    cursor: pointer;
+    margin: 5px 0;
+}
+@media screen and (max-width: 1250px) {
+    [class^="container-reader"]{
+        flex-direction: column;
+    }
+    aside{
+        min-width: 100%;
+    }
+    .reader{
+        border-bottom: 0.1px solid #ccc;
+    }
+    
+}
+@media screen and (max-width: 650px) {
+    .divider{
+        margin: 18px 0;
+    }
+}
+@media screen and (max-width: 360px) {
+    .reader-actions{
+        font-size: 0.8rem;
+    }
+}

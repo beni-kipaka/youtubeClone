@@ -1,0 +1,52 @@
+.upload-video-box{
+    width: 100%;
+    height: 100vh;
+}
+.video-files{
+    max-height: 350px;
+    overflow: auto;
+}
+.video-files{
+    border: 0.1px solid #ccc;
+    width: 500px;
+}
+.bt-upload-box{
+    margin: 10px 0;
+}
+.bt-upload-box button{
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    width: 500px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.bt-upload-box button i{
+    color: white;
+}
+
+.file-item{
+    background-color: #efefef;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.file-item i{
+    color: black;
+    font-size: 0.8rem;
+}
+progress{
+    width: 100%;
+    height: 30px;
+}
+@media screen and (max-width: 600px) {
+    .video-files{
+        width: 100%;
+    }
+
+    .bt-upload-box button{
+        width: 100%;
+    }
+    
+}
